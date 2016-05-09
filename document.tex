@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[italian]{babel}
+
+% moderncv themes
+% optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}
+
+
+\usepackage[utf8]{inputenx}
+\usepackage[scale=0.8,top=1cm, bottom=2cm]{geometry}
+
+% These two lines are used to enlarge the left column
+\setlength{\hintscolumnwidth}{4cm}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{Name}
+\familyname{Surname}
+\title{Curriculum Vitae}              
+\address{address}{City}   
+\mobile{+00 123456 }                   
+\phone{+00 123456 }                      
+\fax{+00 123456 }                         
+\email{user@mail.com}                     
+\homepage{www.page.com}                
+
+\photo[64pt][0.4pt]{photo.jpg}                        
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+
+\begin{document}
+\maketitle
+
+\section{About Me}
+
+\cvline{Name}{---}
+\cvline{Surname}{---}
+\cvline{Sex}{---}
+\cvline{Place and date of birth}{---}
+\cvline{Citizenship}{---}
+
+\section{Work experiences}
+\cvline{Date}{---}
+\cvline{Name and address of employer}{---}
+\cvline{Position held}{---}
+\cvline{Activity}{---}
+\cvline{}{}
+
+\cvline{Date}{---}
+\cvline{Name and address of employer}{---}
+\cvline{Position held}{---}
+\cvline{Activity}{---}
+\cvline{}{}
+										
+\section{Education}
+\subsection{University}
+\cvline{Qualification}{---}
+\cvline{University}{---}
+\cvline{Date}{---}
+\cvline{Date of Graduation}{---}
+\cvline{Vote}{---}
+\cvline{Title of thesis}{---}
+\cvline{}{}
+	 
+\subsection{School}
+\cvline{Qualification}{---}
+\cvline{School}{---}
+\cvline{Date}{---}
+\cvline{Vote}{---}
+
+
+\section{Language skills}
+\cvline{English}{---}
+\cvline{Italy}{---}
+\cvline{French}{---}
+\section{Personal skills}
+\cvline{Skill1}{---}
+\cvline{Skill2}{---}
+\cvline{Skill3}{---}
+\cvline{Skill4}{---}
+
+\section{Projects}
+\cvline{Title of project}{Descriptions}
+\cvline{}{}
+
+\cvline{Title of project}{Descriptions}
+\cvline{}{}
+
+
+\vspace{\fill} 
+City, \today\hfill 
+
+\end{document}
